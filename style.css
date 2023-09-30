@@ -1,0 +1,103 @@
+*{font-family: 'Oswald', sans-serif}
+
+/* todas mudanças no body reflentem no corpo do site */
+/* margin: para as margens no corpo */
+/* padding: para os espaçamento do corpo */
+/* background-color: para a cor de fundo */
+/* height para a altura do site */
+/* font family para mudar a fonte do site */
+/* a */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F7EEDF;
+    height: 2500px;
+}
+
+a {
+    color: black; /* referente a cor do "A"  */
+    text-decoration: none; /* tirar algum tipo de decoração, nesse caso foi o * do li ou lu */
+    font-size: 28px; /* tamanho do texto  */
+}
+
+a:hover{
+     opacity: 0.9; /*   */
+}
+
+.logo{
+    font-size: 40px; /* o tamanho da font */
+    letter-spacing: 2px; /* faz o espaçamento entre as letras */
+    position: relative; /* sobre a posição da loja  */
+    margin-right: 600px; /* margem referente a direita  */
+}
+
+.text1{
+    display: flex; /* transforme o text1 em flex */
+    align-items: center; /* alinha os intens do text1 no centro */
+    flex-direction: column; /* muda a direção pra vertical */
+}
+.card-title{
+    font-size: 60px;  /* o tamanho da font */
+}
+.card-text{
+    font-size: 40px; /* o tamanho da font */
+}
+.card-img{
+    width: 100%;  /* largura */
+    height: 900px;  /* altura */
+}
+
+.breadcrumb{
+    margin-left: 300px; /* tirando a margem da esquerda*/
+    padding-top: 20px; /* espaçamento para cima */
+}
+.ondas{
+    width: 100px; /* largura */
+    height: 100px;  /* altura */
+}
+
+nav{ 
+    display: flex; /* transforme o text1 em flex */
+    justify-content: space-evenly; /* o estilo do espaçamento entre os intens do nav */
+    align-items: center;  /* alinhar os intens do nav */
+    background-color: #EDD3AF; /* a cor de fundo  */
+    border-radius: 80px; /* redondar as bordas  */
+    margin-left: 150px; /* encurtar as margens da esquerda */
+    margin-right: 150px; /* encurtar as margens da direita */
+    padding: 20px; /* espaçamento*/
+}
+
+.nav-bar{
+    list-style: none;  
+    display: flex; /* transforme o nav-bar em flex */
+}
+
+.nav-bar li{
+    letter-spacing: 2px; /* faz o espaçamento entre as letras */
+    margin-left: 50px; /* encurtar as margens da esquerda */
+}
+
+
+
+.text-center{
+    margin-bottom: 40px; /* encurtar as margens de baixo */
+}
+
+.card-nody{
+    text-align: center; /*  */
+    margin-bottom: 8px; /* encurtar as margens de baixo */
+    
+}
+
+.container{
+    position: relative; /* posição do corpo  */
+    bottom: 20px; /* indicação */
+}
+
+.table{
+    height: 200px    /* largura */
+
+}
+

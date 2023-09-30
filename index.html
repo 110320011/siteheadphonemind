@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200;500&family=Oswald:wght@500&family=Playfair+Display:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>HeadPhone</title>
+</head>
+
+<body>
+
+  <!-- Inicio do Header -->
+  <header>
+    <nav>
+      <img src="img/ondas-sonoras.png" class="ondas" alt="logo"></div> <!-- anexar imagem  -->
+      <a class="logo" href="">HEADPHONE MIND </a>  <!-- faz uma ligação com algo, exemplo: links,arquivos e etc -->
+      <ul class="nav-bar">
+
+        <li><a href="">Equipe</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc -->
+        <li><a href="">Reviews</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc -->
+        <li><a href="">TierList</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc -->
+      </ul>
+
+    </nav>
+  </header>
+  <!-- Fim do Header -->
+
+  <!-- Inicio do Breadcrumb: Boostrap -->
+  <nav-b aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc --> <!-- li: referente a uma lista-->
+      <li class="breadcrumb-item" aria-current="page"><a href="#">Equipe</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc --> <!-- li: referente a uma lista-->
+      <li class="breadcrumb-item" aria-current="page"><a href="#">Reviews</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc --> <!-- li: referente a uma lista-->
+      <li class="breadcrumb-item" aria-current="page"><a href="#">TierList</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc --> <!-- li: referente a uma lista-->
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <!-- referente ao buscador-->
+        <button class="" type="submit">Search</button>
+      </form>
+    </ol>
+    </nav>
+    <!-- Fim BreadCrumb -->
+
+    <!-- Inicio da Equipe: Boostrap -->
+    <main>
+      <div class="card text-bg-dark">
+        <img src="img/657417.jpg" class="card-img" alt="..."> <!-- anexar imagem  -->
+        <div class="card-img-overlay">
+          <div class="text1">
+            <h5 class="card-title text-center">HEADPHONE MIND</h5> <!--Titulo em H5-->
+            <h3 class="card-text text-center">A equipe da HEADPHONE MIND está comprometida em oferecer análises
+              especializadas e<br>análises
+              aprofundadas de fones de ouvido,<br>garantindo que você tenha todas as informações necessárias para
+              encontrar o
+              <br>par perfeito para sua experiência auditiva. <!-- paragrafo -->
+            </h3>
+          </div>
+        </div>
+      </div>
+      <!-- Fim da Equipe -->
+
+
+      <!-- Blocos da Review: Boostrap -->
+      <section class="my-5 container" id="fav-places">
+        <h2 class="text-center">Reviews's</h2> <br>
+        <div class="row"> <!-- pai das colunas  -->
+          <div class="col-lg-4"> <!-- organizar as colunas e largura  -->
+            <div class="card">
+              <div class="card-header">
+                <img style="width:95.8%;" src="img/kz edx pro.png" class="imgmain" alt=""> <!-- anexar imagem  -->
+
+              </div>
+              <div class="card-nody">
+                <h4>KZ EDX PRO</h4>
+                <button class="btn btn-primary">REVIEW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4"> <!-- organizar as colunas e largura  -->
+            <div class="card">
+              <div class="card-header">
+                <img style="width:100%;" src="img/kz zsn pro.png" class="imgmain" alt=""> <!-- anexar imagem  -->
+
+              </div>
+              <div class="card-nody">
+                <h4>KZ ZSN PRO</h4>
+                <button class="btn btn-primary">REVIEW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4"> <!-- organizar as colunas e largura  -->
+            <div class="card">
+              <div class="card-header">
+                <img style="width:100%;" src="img/kzs 10 prox.png" class="imgmain" alt=""> <!-- anexar imagem  -->
+
+              </div>
+              <div class="card-nody">
+                <h4>KZ ZS10 PRO X</h4>
+                <button class="btn btn-primary">REVIEW</button> <!-- button-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fim da Review -->
+
+
+      <!-- Pular Linha -->
+      <br>
+      <br>
+
+      <!-- Fim -->
+
+
+
+      <h2 class="text-center">TierList</h2>
+
+      <br>
+      <section class="tableposition">
+
+        <table class="table"> <!-- boostrap table-->
+
+          <thead>
+            <tr>
+              <th scope="col">Fone</th> <!-- mudanças somente nesse escopo do código-->
+              <th scope="col">Qualidade de Som</th> <!-- mudanças somente nesse escopo do código-->
+              <th scope="col">Confortabilidade</th> <!-- mudanças somente nesse escopo do código-->
+              <th scope="col">Construção</th> <!-- mudanças somente nesse escopo do código-->
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">KZ EDX PRO</th> <!-- tag superior ou pai da coluna -->
+              <td>6</td>  <!-- define cada uma das células da tabela -->
+              <td>8</td>  <!-- define cada uma das células da tabela -->
+              <td>8</td>  <!-- define cada uma das células da tabela -->
+            </tr>
+            <tr>
+              <th scope="row">KZ ZSN PRO</th> <!-- tag superior ou pai da coluna -->
+              <td>5</td>  <!-- define cada uma das células da tabela -->
+              <td>7</td>  <!-- define cada uma das células da tabela -->
+              <td>8</td>  <!-- define cada uma das células da tabela -->
+            </tr>
+            <tr>
+              <th scope="row">KZ ZS10 PRO X</th> <!-- tag superior ou pai da coluna -->
+              <td>9</td>  <!-- define cada uma das células da tabela -->
+              <td>7</td>  <!-- define cada uma das células da tabela -->
+              <td>9</td> <!-- define cada uma das células da tabela -->
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+    </main>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+<!-- footer -->
+    <footer class="bg-dark p-3">  <!-- escolhendo a cor -->
+      <div class="row text-light"> <!-- deixar o texto em branco -->
+        <div class="col-lg-4"> <!-- organizar as colunas e largura  -->
+          <p>Estamos sempre à disposição para ouvir suas perguntas, sugestões e comentários. Não hesite em entrar em
+            contato conosco através do nosso formulário de contato, pelo e-mail, ou pelas
+            nossas redes sociais. Sua o pinião é fundamental para nós e estamos ansiosos para ajudá-lo da melhor maneira
+            possível.</p>  <!-- paragrafo -->
+
+          <p>© [2023] [HEADPHONE MIND]. Todos os direitos reservados.</p>  <!-- paragrafo -->
+        </div> 
+        <div class="col-lg-4"> <!-- organizar as colunas e largura  -->
+          <ul>
+            <h4>Contato</h4>
+            <li><a href="#">Facebook</a></li>  <!-- faz uma ligação com algo, exemplo: links,arquivos e etc -->
+            <li><a href="#">Instagram</a></li> <!-- faz uma ligação com algo, exemplo: links,arquivos e etc -->
+            <li><a href="#">Linkedin</a></li>  <!-- faz uma ligação com algo, exemplo: links,arquivos e etc -->
+          </ul>
+        </div>
+        <div class="col-lg-4">  <!-- organizar as colunas e largura  -->
+          <h4>Email:</h4> <!-- texto -->
+          <p>Rudy.Suzan@gmail.com</p> <!-- paragrafo -->
+          <p>Númeror: 11-945052427</p>  <!-- paragrafo -->
+          <p>Loja: shopee.com.br/clays.loja</p>  <!-- paragrafo -->
+        </div>
+      </div>
+    </footer>
+    <!-- fim do footer -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
